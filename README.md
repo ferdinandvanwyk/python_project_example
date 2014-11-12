@@ -3,6 +3,14 @@ pytest_simple_example
 
 Simple example of a good project structure with pytest and sphinx implemented
 
+Resources
+---------
+
+* Good pytest Practises: http://pytest.org/latest/goodpractises.html
+* General Python testing information: http://pythontesting.net/start-here/
+* Directory structure and getting started with writing a setup.py: 
+https://pythonhosted.org/an_example_pypi_project/setuptools.html
+
 Running Tests
 -------------
 
