@@ -17,7 +17,7 @@ setup(
     license = "GNU",
     keywords = "example pytest tutorial",
     packages=['mean', 'tests'],
-    long_description=read('README'),
+    long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
     ],
