@@ -12,6 +12,7 @@ Resources
 https://pythonhosted.org/an_example_pypi_project/setuptools.html
 * Writing a Python project from scratch: 
 http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/             
+* Getting started with Sphinx: https://pythonhosted.org/an_example_pypi_project/sphinx.html
 
 Getting Started
 ---------------

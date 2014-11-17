@@ -13,10 +13,10 @@ setup(
     name = "mean",
     version = "0.0.4",
     author = "Ferdinand van Wyk",
-    description = ("An example of how to set up pytest."),
+    description = ("An example of how to set up pytest and Sphinx."),
     license = "GNU",
-    keywords = "example pytest tutorial",
-    packages=['mean', 'tests'],
+    keywords = "example pytest tutorial sphinx",
+    packages=['mean', 'tests', 'doc'],
     long_description=read('README.md'),
     classifiers=[
         "Development Status :: 3 - Alpha",
