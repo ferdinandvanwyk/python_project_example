@@ -3,7 +3,12 @@ import pytest
 
 class TestClass:
 
-    def test_desc(self):
+    def test_cond_1(self):
         prius = Car("Prius", "2004", "white")
-        assert type(prius.condition()) == str
+        assert prius.condition() == "New"
+
+    def test_cond_2(self):
+        prius = Car("Prius", "2004", "white")
+        prius.drive()
+        assert prius.condition() == "Used"
 

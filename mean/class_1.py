@@ -11,7 +11,7 @@ class Car():
         if self.is_new:
             return "New"
         else:
-            return "Old"
+            return "Used"
 
     def drive(self):
         self.is_new = False
