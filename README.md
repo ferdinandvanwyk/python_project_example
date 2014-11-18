@@ -40,7 +40,7 @@ Building Documentation
 ----------------------
 
 * The documentation is built on Sphinx.
-* The Car class contains methods which emply two different types of docstrings.
+* The Car class contains methods which employs two different types of docstrings.
 * To build HTML documentation:
 ```
 cd doc
