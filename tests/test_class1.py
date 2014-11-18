@@ -5,10 +5,10 @@ class TestClass:
 
     def test_cond_1(self):
         prius = Car("Prius", "2004", "white")
-        assert prius.condition() == "New"
+        assert prius.condition('test') == "New"
 
     def test_cond_2(self):
         prius = Car("Prius", "2004", "white")
         prius.drive()
-        assert prius.condition() == "Used"
+        assert prius.condition('test') == "Used"
 
