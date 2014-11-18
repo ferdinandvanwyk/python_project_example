@@ -36,3 +36,36 @@ pip install -e .   # install package using setup.py in editable mode
 py.test
 ``` 
 
+Building Documentation
+----------------------
+
+* The documentation is built on Sphinx.
+* The Car class contains methods which employs two different types of docstrings.
+* To build HTML documentation:
+```
+cd doc
+make html
+```
+* To build LaTeX documentation:
+```
+cd doc
+make latex
+cd build/latex
+make
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
