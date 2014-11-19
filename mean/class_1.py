@@ -14,7 +14,7 @@ class Car():
     is_new = True
 
     def __init__(self, model, year, colour):
-        """A really simple class.
+        """A really simple class. Sphinxy docstring.
 
         Args:
            model (str): Model of the car.
@@ -31,7 +31,8 @@ class Car():
         self.mileage = 0
 
     def condition(self, name):
-        """This function returns the condition of the Car instance.
+        """This function returns the condition of the Car instance. Googley 
+        docstring.
 
         Args:
            name (str):  Some test argument.
@@ -48,7 +49,8 @@ class Car():
             return "Used"
 
     def drive(self, distance):
-        """This function drives the Car and adds to the mileage.
+        """This function drives the Car and adds to the mileage. This is a 
+        numpydoc docstring.
 
         Parameters
         ----------

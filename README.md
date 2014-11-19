@@ -40,7 +40,10 @@ Building Documentation
 ----------------------
 
 * The documentation is built on Sphinx.
-* The Car class contains methods which employs two different types of docstrings.
+* The Car class contains docstrings in 3 different styles:
+    * Googley
+    * Sphinxy
+    * numpydoc
 * To build HTML documentation:
 ```
 cd doc
