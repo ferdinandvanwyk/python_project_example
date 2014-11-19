@@ -28,6 +28,7 @@ class Car():
         self.model = model
         self.year = year
         self.colour = colour
+        self.mileage = 0
 
     def condition(self, name):
         """This function returns the condition of the Car instance.
@@ -46,8 +47,39 @@ class Car():
         else:
             return "Used"
 
-    def drive(self):
+    def drive(self, distance):
+        """This function drives the Car and adds to the mileage.
+
+        Parameters
+        ----------
+        distance : int
+            This is the distance travelled by the car and will be added to the
+            current mileage.
+
+        Returns
+        -------
+        None
+        
+        Raises
+        ------
+        BadException
+            Because you shouldn't have done that.
+
+        Notes
+        -----
+        Notes about the implementation algorithm (if needed).
+
+        This can have multiple paragraphs.
+
+        You may include some math:
+
+        .. math:: X(e^{j\omega } ) = x(n)e^{ - j\omega n}
+
+        And even use a greek symbol like :math:`omega` inline.
+
+        """
         self.is_new = False
+        self.mileage += distance
 
     def description(self, name):
         """This function prints the description of the car instance.
