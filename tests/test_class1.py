@@ -9,6 +9,11 @@ class TestClass:
 
     def test_cond_2(self):
         prius = Car("Prius", "2004", "white")
-        prius.drive()
+        prius.drive(1000)
         assert prius.condition('test') == "Used"
+
+    def test_drive(self):
+        prius = Car("Prius", "2004", "white")
+        prius.drive(1000)
+        assert prius.mileage == 1000
 
