@@ -57,6 +57,27 @@ cd build/latex
 make
 ```
 
+Importing into another project
+------------------------------
+
+The main project directory contains two files called `func_1.py` and 
+`func_2.py`. They contain two useless functions called `avg` and `dim` which 
+give the mean and shape of a given vector, respectively. In order to use these 
+functions in other projects the `__init__.py` file requires the following lines
+
+```
+from .func_1 import *                                                           
+from .func_2 import *
+```
+
+The `__init__.py` file is executed when the project is imported so these 
+functions become available.
+
+The steps are as follows:
+
+* Install the package by running `$ pip install -e .` in the root directory.
+* In your project/iPython, import as normal: `import mean as mean`.
+* Can now use these function as `mean.avg([1,2,3])` which returns `3.0`.
 
 
 
